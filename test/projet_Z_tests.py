@@ -1,5 +1,5 @@
 # tests/test_main.py
-
+import pytest
 from src.projet_z.projet_Z_main import addition, soustraction, multiplication, division, division_euclidienne
 
 def test_addition():
