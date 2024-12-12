@@ -1,12 +1,14 @@
 # tests/test_main.py
 
-import pytest
+import pytest 
 import sys
 import os
 
-sys.path.append(sys.path.abspath(sys.path.join(sys.path.dirname(__file__),'../src')))
+sys.path.append(os.path.abspath("projet_Z/src/projet_z"))
+"""sys.path.append("projet_Z/src/projet_z")"""
 
-from src.projet_z.projet_Z_main import addition, soustraction, multiplication, division, division_euclidienne
+
+from projet_Z_main import addition, soustraction, multiplication, division, division_euclidienne
 
 def test_addition():
     assert addition(3, 2) == 5
