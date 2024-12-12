@@ -1,1 +1,4 @@
 "# Project Z" 
+Nous avons réussi à mettre en place la structure du projet, et à éditer la documentation adéquate.
+Concernant la mise en application du code, nous avons rencontré plusieurs difficultés. Sur une machine, la fonction "Python : Select Interpreter" a été impossible à utiliser. Sur une autre, nous avons rencontré l'erreur suivante : "Import "projet_Z_main" could not be resolved", malgré avoir tenté à plusieurs reprises de faire correspondre les chemins d'accès, absolus ou relatifs. Sur une dernière machine, Anaconda et Python ne fonctionnaient pas, ce qui disqualifie d'office l'utilisation de cette machine.
+A terme il a été impossible d'exploiter le programme pour ces raisons, mais la structure du projet a bien été initialisée. Nous avons pu comprendre les objectifs du projet, mais nous sommes heurtés à des impasses faute de connaissance en programmation python
